@@ -1,7 +1,6 @@
 <?php
 
 ##########################################################
-#
 date_default_timezone_set("Asia/Karachi");
 
 ################################
@@ -10,15 +9,10 @@ define("cErrorDisplay","1");
 define("cErrorDebug",TRUE);
 
 
-################################
-# Project Info
-
-
-
 
 ################################################
 # Error Handler Constant
-define("cErrorHandlerProjectName","Shakir Testing");
+define("cErrorHandlerProjectName","Shakir");
 define("cErrorHandlerSenderEmail","");
 define("cErrorHandlerSubject","");
 define("cErrorHandlerLogFile","");

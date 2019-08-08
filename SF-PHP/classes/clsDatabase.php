@@ -1,8 +1,7 @@
 <?php
-# ######################################
-# PHP General Functions Class
-# by Shakir Ali : shakiraliswe@gmail.com
-# ######################################
+###############################
+# DEVELOPED BY : SHAKIR ALI
+##############################
 
 Class clsDatabase
 {

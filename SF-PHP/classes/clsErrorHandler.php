@@ -1,9 +1,8 @@
 <?php
 
-# ######################################
-# PHP General Functions Class
-# by Shakir Ali : shakiraliswe@gmail.com
-# ######################################
+###############################
+# DEVELOPED BY : SHAKIR ALI
+##############################
 
 
 # REQUIRED PHP HEADERS FOR DEBUG SET ALL TO 1

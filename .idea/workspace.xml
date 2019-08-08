@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5fa9c855-8112-4a5c-bcbc-41e6cd0e143d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SF-PHP/classes/clsDatabase.php" afterPath="$PROJECT_DIR$/SF-PHP/classes/clsDatabase.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SF-PHP/classes/clsErrorHandler.php" afterPath="$PROJECT_DIR$/SF-PHP/classes/clsErrorHandler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SF-PHP/classes/clsGeneral.php" afterPath="$PROJECT_DIR$/SF-PHP/classes/clsGeneral.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/config.php" afterPath="$PROJECT_DIR$/config/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/includes.php" afterPath="$PROJECT_DIR$/includes/includes.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,59 +17,19 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="includes.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/includes/includes.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="clsDatabase.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SF-PHP/classes/clsDatabase.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-19">
-              <caret line="89" column="23" lean-forward="true" selection-start-line="89" selection-start-column="23" selection-end-line="89" selection-end-column="23" />
-              <folding>
-                <element signature="e#6#46#0#PHP" expanded="true" />
-                <marker date="1565241853082" expanded="true" signature="2196:2244" ph="SELECT Count... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding>
-                <marker date="1565240605291" expanded="true" signature="147:166" ph="SELECT * FRO... users" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>$old_error_handler</find>
       <find>cTimeFormat</find>
+      <find>global $this-&gt;objS3Client;</find>
+      <find>cS3BucketName</find>
     </findStrings>
+    <replaceStrings>
+      <replace>$this-&gt;objS3Client</replace>
+      <replace>$this-&gt;sBucketName</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -72,11 +37,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/SF-PHP/classes/clsErrorHandler.php" />
-        <option value="$PROJECT_DIR$/config/config.php" />
-        <option value="$PROJECT_DIR$/includes/includes.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/SF-PHP/components/AWS/AWSConnectivity.php" />
+        <option value="$PROJECT_DIR$/SF-PHP/classes/clsS3AWS.php" />
+        <option value="$PROJECT_DIR$/SF-PHP/components/Redis/autoload.php" />
+        <option value="$PROJECT_DIR$/SF-PHP/classes/clsRedis.php" />
         <option value="$PROJECT_DIR$/SF-PHP/classes/clsDatabase.php" />
+        <option value="$PROJECT_DIR$/SF-PHP/classes/clsErrorHandler.php" />
+        <option value="$PROJECT_DIR$/SF-PHP/classes/clsGeneral.php" />
+        <option value="$PROJECT_DIR$/includes/includes.php" />
+        <option value="$PROJECT_DIR$/config/config.php" />
       </list>
     </option>
   </component>
@@ -87,7 +57,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-7" />
     <option name="y" value="2" />
     <option name="width" value="1378" />
@@ -136,14 +106,7 @@
               <item name="Lambda-PHP-Framework" type="b2602c69:ProjectViewProjectNode" />
               <item name="Lambda-PHP-Framework" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="SF-PHP" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Lambda-PHP-Framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lambda-PHP-Framework" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="SF-PHP" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Predis" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="classes" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -177,31 +140,32 @@
       <option name="presentableId" value="Default" />
       <updated>1565187216453</updated>
       <workItem from="1565187217800" duration="6632000" />
+      <workItem from="1565263632665" duration="5062000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6632000" />
+    <option name="totallyTimeSpent" value="11694000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25340393" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -218,32 +182,11 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SF-PHP/classes/clsErrorHandler.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2204">
-          <caret line="116" column="25" lean-forward="false" selection-start-line="116" selection-start-column="25" selection-end-line="116" selection-end-column="25" />
-          <folding>
-            <element signature="e#7#47#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SF-PHP/classes/clsDatabase.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19">
-          <caret line="89" column="23" lean-forward="true" selection-start-line="89" selection-start-column="23" selection-end-line="89" selection-end-column="23" />
-          <folding>
-            <element signature="e#6#46#0#PHP" expanded="true" />
-            <marker date="1565241853082" expanded="true" signature="2196:2244" ph="SELECT Count... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -255,6 +198,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/SF-PHP/classes/clsDatabase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1691">
+          <caret line="89" column="23" lean-forward="true" selection-start-line="89" selection-start-column="23" selection-end-line="89" selection-end-column="23" />
+          <folding>
+            <marker date="1565275570195" expanded="true" signature="2134:2182" ph="SELECT Count... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -262,6 +215,165 @@
           <folding>
             <marker date="1565240605291" expanded="true" signature="147:166" ph="SELECT * FRO... users" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SF-PHP/components/AWS/aws-autoloader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="52" lean-forward="false" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SF-PHP/components/AWS/AWSConnectivity.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="74" lean-forward="false" selection-start-line="3" selection-start-column="59" selection-end-line="3" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SF-PHP/components/Redis/vendor/predis/predis/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="13" column="30" lean-forward="false" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SF-PHP/components/Redis/examples/redis_collections_iterators.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <marker date="1565240605291" expanded="true" signature="147:166" ph="SELECT * FRO... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SF-PHP/components/Redis/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding>
+            <element signature="e#7#239#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SF-PHP/classes/clsS3AWS.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="42" lean-forward="true" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SF-PHP/classes/clsRedis.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="3" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SF-PHP/classes/clsErrorHandler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SF-PHP/classes/clsDatabase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="13" column="47" lean-forward="false" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="47" />
+          <folding>
+            <marker date="1565275570195" expanded="true" signature="2134:2182" ph="SELECT Count... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SF-PHP/classes/clsGeneral.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="217" column="29" lean-forward="true" selection-start-line="217" selection-start-column="29" selection-end-line="217" selection-end-column="29" />
+          <folding>
+            <element signature="n#__CONSTRUCT#0;n#clsGeneral#0;n#!!top" expanded="false" />
+            <element signature="e#161#239#0#PHP" expanded="false" />
+            <element signature="n#fnValidateEmail#0;n#clsGeneral#0;n#!!top" expanded="false" />
+            <element signature="e#683#761#0#PHP" expanded="false" />
+            <element signature="n#fnDaysDiffOfTwoDate#0;n#clsGeneral#0;n#!!top" expanded="false" />
+            <element signature="e#1370#1448#0#PHP" expanded="false" />
+            <element signature="n#fnDaysDiffOfTwoDateWithOutSunday#0;n#clsGeneral#0;n#!!top" expanded="false" />
+            <element signature="e#2254#2401#0#PHP" expanded="false" />
+            <element signature="e#2440#2518#0#PHP" expanded="false" />
+            <element signature="n#fnDiffBetweenTwoDate#0;n#clsGeneral#0;n#!!top" expanded="false" />
+            <element signature="e#3148#3226#0#PHP" expanded="false" />
+            <element signature="n#fnDiffBetweenTwoDateFormated#0;n#clsGeneral#0;n#!!top" expanded="false" />
+            <element signature="e#4253#4327#0#PHP" expanded="false" />
+            <element signature="n#fnDateFromDateTime#0;n#clsGeneral#0;n#!!top" expanded="false" />
+            <element signature="e#4756#4830#0#PHP" expanded="false" />
+            <element signature="n#fnTimeFromDateTime#0;n#clsGeneral#0;n#!!top" expanded="false" />
+            <element signature="e#5259#5333#0#PHP" expanded="false" />
+            <element signature="n#fnFormatDateTime#0;n#clsGeneral#0;n#!!top" expanded="false" />
+            <element signature="e#5779#5853#0#PHP" expanded="false" />
+            <element signature="n#fnBrowserName#0;n#clsGeneral#0;n#!!top" expanded="false" />
+            <element signature="e#6159#6420#0#PHP" expanded="false" />
+            <element signature="e#6431#6559#0#PHP" expanded="false" />
+            <element signature="e#6608#6686#0#PHP" expanded="false" />
+            <element signature="n#fnNow#0;n#clsGeneral#0;n#!!top" expanded="false" />
+            <element signature="n#fnDiffBetweenTwoLocation#0;n#clsGeneral#0;n#!!top" expanded="false" />
+            <element signature="e#7653#7731#0#PHP" expanded="false" />
+            <element signature="n#fnGet#0;n#clsGeneral#0;n#!!top" expanded="false" />
+            <element signature="e#8164#8497#0#PHP" expanded="false" />
+            <element signature="e#8276#8497#0#PHP" expanded="false" />
+            <element signature="e#8385#8497#0#PHP" expanded="false" />
+            <element signature="n#fnDecryption#0;n#clsGeneral#0;n#!!top" expanded="false" />
+            <element signature="n#fnPasswordEncrypt#0;n#clsGeneral#0;n#!!top" expanded="false" />
+            <element signature="n#fnVerifyPassword#0;n#clsGeneral#0;n#!!top" expanded="false" />
+            <element signature="n#fnEncode#0;n#clsGeneral#0;n#!!top" expanded="false" />
+            <element signature="e#10286#10552#0#PHP" expanded="false" />
+            <element signature="n#fnDecode#0;n#clsGeneral#0;n#!!top" expanded="false" />
+            <element signature="n#fnRedirectWithPost#0;n#clsGeneral#0;n#!!top" expanded="false" />
+            <element signature="e#11493#11747#0#PHP" expanded="false" />
+            <element signature="n#fnParametersStringToArray#0;n#clsGeneral#0;n#!!top" expanded="false" />
+            <element signature="e#12061#12347#0#PHP" expanded="false" />
+            <element signature="e#12158#12336#0#PHP" expanded="false" />
+            <element signature="n#fnTopURLRefresh#0;n#clsGeneral#0;n#!!top" expanded="false" />
+            <element signature="n#fnGetIPAddress#0;n#clsGeneral#0;n#!!top" expanded="false" />
+            <element signature="n#fnReadCSV#0;n#clsGeneral#0;n#!!top" expanded="false" />
+            <element signature="e#13609#14168#0#PHP" expanded="false" />
+            <element signature="e#13645#13840#0#PHP" expanded="false" />
+            <element signature="n#fnFiltersStringToArray#0;n#clsGeneral#0;n#!!top" expanded="false" />
+            <element signature="e#14484#14742#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/includes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
